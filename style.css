@@ -7,7 +7,7 @@ body {
   padding-top: 70px;
   display: block;
   background-color: #f8f9fa;
-  font-family: 'Inconsolata', monospace !important;
+  font-family: 'Inconsolata', sans-serif !important;
 }
 
 .language{
@@ -43,7 +43,7 @@ ul.b li::before {
 
 .navbar-brand {
   height: 55px;
-  font-family: 'Inconsolata', monospace !important;
+  font-family: 'Inconsolata', , sans-serif !important;
 }
 
 a.link-footer{
@@ -70,14 +70,15 @@ a.myemail:hover {
 
 
 section {
-  padding-bottom: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 
 
 
 section h1 {
-  padding-top: 30px;
+
     font-weight: 400;
   text-align: left;
 }
@@ -119,7 +120,7 @@ section p {
 
 .seefolio {
   margin-top: 25px;
-  color: white;
+  color: black;
   font-weight: 500;
   background-color: #5fcfb3;
   width: 150px;
@@ -149,7 +150,7 @@ section p {
         }
 
   #top25 {
-    background-color: #f4edf0; 
+    background-color: #f4edf0;
     }
 
     .container-intro{
@@ -208,13 +209,19 @@ section p {
 
   h1{
     font-size: 45px;
-    font-family: 'Inconsolata', monospace;
-    color: #5fcfb3;
+    font-family: 'Inconsolata';
+
+    color: #6d5c5c;
+  }
+
+  #white{
+    color: #ffffff;
+
   }
 
   h2, .role{
     font-size: 30px;
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Inconsolata';
     color: #6d5c5c;
   }
 
@@ -336,14 +343,17 @@ padding-top: 20px;
 
 /* Create four equal columns that sits next to each other */
 .col1, .col2, .col3 {
+  
+
   margin-left: 10px;
   margin-right: 10px;
-  flex: 50%;
+    flex: 50%;
   max-width: 50%;
 }
 
 .col1, .col2, .col3 img {
   vertical-align: middle;
+  justify-content: center;
   width: 100%;
 }
 
