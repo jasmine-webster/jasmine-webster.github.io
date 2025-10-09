@@ -209,15 +209,28 @@ section p {
 
   h1{
     font-size: 45px;
-    font-family: 'Inconsolata';
 
-    color: #6d5c5c;
-  }
 
-  #white{
+
+
+
+  font-family: 'Inconsolata', monospace;
+color: #6d5c5c;
+}
+
+#white {
+  color: #ffffff;
+}
+
+
+
+
+
+#white{
     color: #ffffff;
 
   }
+
 
   h2, .role{
     font-size: 30px;
@@ -343,7 +356,7 @@ padding-top: 20px;
 
 /* Create four equal columns that sits next to each other */
 .col1, .col2, .col3 {
-  
+
 
   margin-left: 10px;
   margin-right: 10px;
