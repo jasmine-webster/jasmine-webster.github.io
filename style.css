@@ -892,3 +892,16 @@ left: 80px;
     flex-direction: column;   /* su mobile i box si impilano */
   }
 }
+
+@media screen and (max-width: 768px) {
+  #intro1 {
+    
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .container-intro {
+    padding-top: 50px;
+    padding-bottom: 20px;
+  }
+}
