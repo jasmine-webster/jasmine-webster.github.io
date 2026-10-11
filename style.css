@@ -7,7 +7,7 @@ body {
   padding-top: 70px;
   display: block;
   background-color: #f8f9fa;
-  font-family: 'Inconsolata', sans-serif !important;
+  font-family: 'barlow';
 }
 
 .language{
@@ -30,8 +30,8 @@ ul.b li::before {
   color: #707c99;
   font-weight: bold; /* If you want it to be bold */
   display: inline-block; /* Needed to add space between the bullet and the text */
-  width: 0.5em; /* Also needed for space (tweak if needed) */
-  margin-left: -1em; /* Also needed for space (tweak if needed) */
+  width: 1.5em; /* Also needed for space (tweak if needed) */
+  margin-left: -1.5em; /* Also needed for space (tweak if needed) */
 }
 
 
@@ -43,7 +43,7 @@ ul.b li::before {
 
 .navbar-brand {
   height: 55px;
-  font-family: 'Inconsolata', , sans-serif !important;
+  font-family: 'Inconsolata', sans-serif !important;
 }
 
 a.link-footer{
@@ -70,8 +70,8 @@ a.myemail:hover {
 
 
 section {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 
@@ -79,7 +79,7 @@ section {
 
 section h1 {
 
-    font-weight: 400;
+    font-weight: bold;
   text-align: left;
 }
 
@@ -130,11 +130,48 @@ section p {
   border: none;
   }
 
-  .seefolio:hover {
-    background-color: #ba9dc9;
-    outline: none;
-    border: none;
-    }
+  /* bank: azzurro */
+.seefolio.bank {
+  background-color: #b8dadd;
+}
+.seefolio.bank:hover {
+  background-color: #87c1c6;
+}
+
+/* legale: arancione */
+.seefolio.legal {
+background-color: #d1c3c5;
+}
+.seefolio.legal:hover {
+background-color: #bca6aa;
+}
+
+/* nyume: lilla */
+.seefolio.nyume {
+background-color: #cec5dd;
+}
+.seefolio.nyume:hover {
+background-color: #bab5c6;
+}
+
+/* girlfriend: rosa */
+.seefolio.girlfriend {
+background-color: #eac7d5;
+}
+.seefolio.girlfriend:hover {
+background-color: #e8aac4;
+}
+
+
+/* contact: green */
+.seefolio.contact {
+background-color: #5fcfb3;
+}
+.seefolio.contact:hover {
+background-color: #ba9dc9;
+}
+
+
 
 
 
@@ -144,10 +181,16 @@ section p {
         padding-left: 20px;
         padding-right: 20px;
         text-align: left;
-        font-size: 45px;
-        font-family: 'Inconsolata', monospace;
+        font-size: 25px;
+        font-family: 'barlow';
         color: #6d5c5c;
         }
+
+
+        .role-intro {
+    color: #486975;   /* lo stesso blu di h1 e h2 */
+    font-weight: bold; /* toglilo se lo vuoi regular */
+  }
 
   #top25 {
     background-color: #f4edf0;
@@ -163,10 +206,12 @@ section p {
         }
 
 
-.nyume {
-  color: white;
-  background-color: #707c99;
+.img-space {
+  margin-top: 100px;
 }
+
+
+
 
 .light-text {
     color: #6d5c5c;
@@ -174,11 +219,11 @@ section p {
 
 #hero1 {
 
-  background-color: #e4dded;
+  background-color: #e9e2f2;
     }
 
   #hero2{
-    background-color: #f4edf0;
+    background-color: #f5e2ed;
   }
 
   #hero3{
@@ -195,11 +240,11 @@ section p {
   }
 
   #hero6{
-    background-color: #F1F1F1;
+    background-color: #d8e6ef;
   }
 
   #hero7{
-    background-color: #F9F6F0;
+    background-color: #f4edf0;
   }
 
 
@@ -207,36 +252,41 @@ section p {
     border: 1px solid teal;
   }
 
-  h1{
-    font-size: 45px;
-
-
-
-
-
-  font-family: 'Inconsolata', monospace;
-color: #6d5c5c;
-}
 
 #white {
   color: #ffffff;
 }
 
 
-
-
-
-#white{
-    color: #ffffff;
-
-  }
+h1{
+  font-size: 35px;
+    font-family: 'Barlow';
+    font-weight: bold;
+color: #486975;
+}
 
 
   h2, .role{
-    font-size: 30px;
+    font-size: 27px;
+    font-family: 'Barlow';
+    font-weight: bold;
+        color: #486975;
+    margin-bottom: 1.5rem;
+  }
+
+
+  h3{
+    font-size: 18px;
     font-family: 'Inconsolata';
     color: #6d5c5c;
   }
+
+  h4, .role-w{
+    font-size: 30px;
+    font-family: 'Inconsolata', monospace;
+    color: #ffffff;
+  }
+
 
   .green{
     color: #e1f2ec;
@@ -249,17 +299,7 @@ color: #6d5c5c;
     color: #6d5c5c;
   }
 
-  h3{
-    font-size: 20px;
-    font-family: 'Inconsolata', monospace;
-    color: #6d5c5c;
-  }
 
-  h4, .role-w{
-    font-size: 30px;
-    font-family: 'Inconsolata', monospace;
-    color: #ffffff;
-  }
 
 
 
@@ -516,7 +556,7 @@ color: white;
 .overlay a {
 
   text-decoration: none;
-  font-size: 50px;
+  font-size: 35px;
 color: white;
   display: block;
   transition: 0.3s;
@@ -552,7 +592,25 @@ color: #707c99;
 }
 */
 
+/* video app nella sezione Solution */
+.video-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-app {
+  width: 60%;
+  max-width: 300px;
+  height: auto;
+}
+
+
+
 /*Trial Nuovo Video Gallery*/
+
+
+
 
 .container-video-ui-animation {
   margin-left: 2rem 0;
@@ -734,12 +792,14 @@ left: -10px;
   background: #ba9dc9;
   transition: 0.5s;
   border-radius: 2px;
+  border-bottom: 2px solid #ba9dc9;   /* nuova riga */
   pointer-events: none;
 }
 
 .container-contact .row-contact .inputbox input:focus ~ .line,
 .container-contact .row-contact .inputbox input:valid ~ .line {
 height: 100%;
+background: #ffffff;
 }
 
 .container-contact .row-contact .inputbox.textarea{
@@ -763,6 +823,7 @@ left: -10px;
 .container-contact .row-contact .inputbox textarea:focus ~ .line,
 .container-contact .row-contact .inputbox textarea:valid ~ .line {
 height: 100%;
+background-color: #ffffff;
 }
 
 input[type='submit'] {
@@ -770,13 +831,18 @@ input[type='submit'] {
   outline: none;
   cursor: pointer;
   margin-top: 25px;
-  color: white;
+  color: #000000;
   font-weight: 500;
   background-color: #5fcfb3;
   width: 150px;
   border-radius: 50px;
   height: 40px;
+  }
+
+input[type='submit']:hover {
+  background-color: #ba9dc9;
 }
+
 /*status button for Contact Form*/
 #status {
 position: absolute;
@@ -808,4 +874,20 @@ color: white;
 width: 100px;
 top: 800px;
 left: 80px;
+}
+
+
+.skills-row {
+  display: flex;
+  gap: 50px;            /* distanza tra i box */
+}
+
+.skills-box {
+  flex: 1;              /* tre box di larghezza uguale */
+}
+
+@media screen and (max-width: 768px) {
+  .skills-row {
+    flex-direction: column;   /* su mobile i box si impilano */
+  }
 }
