@@ -606,6 +606,12 @@ color: #707c99;
   height: auto;
 }
 
+.video-desktop {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 
 
 /*Trial Nuovo Video Gallery*/
@@ -708,6 +714,20 @@ overflow:hidden;
 @media screen and (max-width: 768px) {
   #intro1 {
     font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .row {
+    row-gap: 3rem;
+  }
+
+  .img-space {
+    margin-top: 10px;
+  }
+
+  .about-img {
+    margin-bottom: 2rem;
   }
 }
 
@@ -895,7 +915,7 @@ left: 80px;
 
 @media screen and (max-width: 768px) {
   #intro1 {
-    
+
     padding-top: 50px;
     padding-bottom: 50px;
   }
