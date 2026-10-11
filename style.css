@@ -729,6 +729,24 @@ overflow:hidden;
   .about-img {
     margin-bottom: 2rem;
   }
+
+  .container-intro .row {
+  row-gap: 0;
+}
+
+.container-intro p {
+  margin-bottom: 3rem;
+}
+}
+
+.br-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .br-mobile {
+    display: block;
+  }
 }
 
 
