@@ -309,6 +309,29 @@ color: #486975;
   text-decoration: none;
 }
 
+.dash-bank {
+  color: #87c1c6;
+  font-size: 27px;
+  font-weight: bold;
+}
+
+.dash-legal {
+  color: #bca6aa;
+  font-size: 27px;
+  font-weight: bold;
+}
+
+.dash-nyume {
+  color: #bab5c6;
+  font-size: 27px;
+  font-weight: bold;
+}
+
+.dash-girlfriend {
+  color: #e8aac4;
+  font-size: 27px;
+  font-weight: bold;
+}
 
 .dash1 {
   color: #5fcfb3;
